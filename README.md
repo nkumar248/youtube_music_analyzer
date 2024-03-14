@@ -5,9 +5,9 @@ I wrote a script that downloads a specified audio clip from YouTube using yt-dlp
 
 ## Guide
 - Run python analyze.py --youtube-url {youtube url} --min-time {lower bound of frame of interest in seconds} --max-time {upper bound of frame of interest in seconds}
-- Visualization shows chord progression over time with orange rectanlges being major chords, blue rectanlges being minor chords and "N" (colorless rectangle) meaning "no chord detected".
+- Visualization shows chord progression over time with orange rectanlges being major chords, blue rectangles being minor chords and "N" (colorless rectangle) meaning "no chord detected".
 
 ## More ideas
 - Create a better visualization
-- Extract and display more information about the audio
+- Extract and display more information about the audio (key, tempo, ...)
 - Create more user-friendly interaction than command-line usage
